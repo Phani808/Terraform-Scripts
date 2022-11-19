@@ -1,0 +1,11 @@
+1. Download Terraform:
+  curl -O https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_linux_amd64.zip
+  
+2. Check where to unzip package
+
+3. Find out executable path
+   echo $PATH
+   unzip terraform_1.0.0_linux_amd64.zip -d /usr/bin/
+   
+4. Verify Installation
+   terraform -v
