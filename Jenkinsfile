@@ -48,7 +48,7 @@ pipeline {
 //             steps {
 //                 sh "ls -ll && pwd"
                 
-//               sh "ansible-playbook ansible.yml -vvvvv"
+//              f sh "ansible-playbook ansible.yml -vvvvv"
 //             }
 //         }
     }
