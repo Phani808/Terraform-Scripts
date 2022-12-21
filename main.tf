@@ -45,7 +45,7 @@ egress {
 
 resource "aws_instance" "awsvm" {
   count                  = 1
-  ami                    = "ami-0aeeebd8d2ab47354"
+  ami                    = "ami-0fe472d8a85bc7b0e"
   key_name               = "ravidevops"
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.Instance_SG.id]
